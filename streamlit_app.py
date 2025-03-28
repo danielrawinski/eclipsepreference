@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Mar 28 19:11:49 2025
-
-@author: Lenovo
-"""
-
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
@@ -61,9 +54,9 @@ if countryselector == 'Germany':
         st.write('There are three criteria. Set a value for each of them for 0 to 1.')
         st.write('IMPORTANT! Sum of those three values should equal to 1.')
 
-        obs_pref = st.slider('Preference for how much sun is obscured', value=0.0)
-        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', value=0.0)
-        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.0)
+        obs_pref = st.slider('Preference for how much sun is obscured', min_value = 0.0, max_value = 1.0, value = 0.0)
+        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
+        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         
         if obs_pref + clouds_pref + dist_pref == 1:
             id_chosen = conditions_de.loc[conditions_de['krs_name'] == regionselector, 'krs_code'].iloc[0]
@@ -127,12 +120,7 @@ if countryselector == 'Poland':
         st.write('There are three criteria. Set a value for each of them for 0 to 1.')
         st.write('IMPORTANT! Sum of those three values should equal to 1.')
 
-        obs_pref = st.slider('Preference for how much sun is obscured', value=0.34)
-        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', value=0.33)
-        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.33)
+        obs_pref = st.slider('Preference for how much sun is obscured', min_value = 0.0, max_value = 1.0, value = 0.0)
+        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
+        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         
-
-    
-
-
-
