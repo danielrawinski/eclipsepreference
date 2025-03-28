@@ -25,15 +25,23 @@ countryselector = st.selectbox('First, choose a country:', ['Select', 'Germany',
 if countryselector == 'Germany':
     regionselector = st.selectbox('Now, choose a district:', regions_de)
     
+    if regionselector:
+        st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
+        st.write('There are three criteria. Set a value for each of them for 0 to 1.')
+        st.write('IMPORTANT! Sum of those three values should equal to 1.')
+
+        obs_pref = st.slider('Preference for how much sun is obscured', value=0.34)
+        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', value=0.33)
+        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.33)      
+    
 if countryselector == 'Poland':
     regionselector = st.selectbox('Now, choose a powiat:', regions_pl)
     
-if regionselector:
+    if regionselector:
+        st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
+        st.write('There are three criteria. Set a value for each of them for 0 to 1.')
+        st.write('IMPORTANT! Sum of those three values should equal to 1.')
 
-    st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
-    st.write('There are three criteria. Set a value for each of them for 0 to 1.')
-    st.write('IMPORTANT! Sum of those three values should equal to 1.')
-
-    obs_pref = st.slider('Preference for how much sun is obscured', value=0.34)
-    clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', value=0.33)
-    dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.33)
+        obs_pref = st.slider('Preference for how much sun is obscured', value=0.34)
+        clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', value=0.33)
+        dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.33)
