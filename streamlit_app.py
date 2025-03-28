@@ -42,6 +42,7 @@ if countryselector == 'Germany':
         obs_pref = st.slider('Preference for how much sun is obscured', min_value = 0.0, max_value = 1.0, value = 0.0)
         clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
+        krs_short = conditions_de.loc[conditions_de['krs_name'] == regionalselector, 'krs_name_sh'].iloc[0]
         
         if obs_pref + clouds_pref + dist_pref == 1:
             id_chosen = conditions_de.loc[conditions_de['krs_name'] == regionselector, 'krs_code'].iloc[0]
@@ -65,6 +66,9 @@ if countryselector == 'Germany':
             display_df = conditions_for_choice[['krs_name_sh', 'obscuration', 'Clouds', 'distance in km', 'preference index']]
             display_df.rename(columns={'krs_name_sh': 'District name', 'obscuration': 'Percentage of Sun covered', 'Clouds': 'Cloud cover', 'distance in km': 'Distance in km', 'preference index': 'Preference index'}, inplace=True)
 
+            st.write('The viewing conditions at your residence are:')
+            st.markdown(display_df.loc[display_df['District name'] == krs_short).to_markdown(index=False))
+            
             st.write('The best conditions according to your preferences are in:')
             st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
             
