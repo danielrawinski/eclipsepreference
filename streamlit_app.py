@@ -65,8 +65,7 @@ if countryselector == 'Germany':
             display_df = conditions_for_choice[['krs_name_sh', 'obscuration', 'Clouds', 'distance in km', 'preference index']]
             display_df.rename(columns={'krs_name_sh': 'District name', 'obscuration': 'Percentage of Sun covered', 'Clouds': 'Cloud cover', 'distance in km': 'Distance in km', 'preference index': 'Preference index'}, inplace=True)
             
-            print(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
-            
+            st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
             
             deutschland = gpd.read_file('georef-germany-kreis-millesime.shp')
 
@@ -110,4 +109,6 @@ if countryselector == 'Poland':
         obs_pref = st.slider('Preference for how much sun is obscured', min_value = 0.0, max_value = 1.0, value = 0.0)
         clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
-        
+
+
+st.write('Developed with care and pain by Daniel Rawinski. Huge moral support of Kateryna Zabarina')
