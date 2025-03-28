@@ -70,7 +70,7 @@ if countryselector == 'Germany':
             
             deutschland = gpd.read_file('georef-germany-kreis-millesime.shp')
 
-            map_sp_df = deutschland.merge(conditions_for_choice, left_on='krs_code', right_on='krs_code')
+            map_sp_df = pd.concat([deutschland, conditions_for_choice], axis=1)
 
             (
                 ggplot(map_sp_df)
