@@ -72,7 +72,7 @@ if countryselector == 'Germany':
 
             map_sp_df = pd.concat([deutschland, conditions_for_choice], axis=1)
 
-            (
+            p = (
                 ggplot(map_sp_df)
                 + geom_map(aes(fill="preference index"))
                 + scale_fill_continuous(
@@ -94,6 +94,8 @@ if countryselector == 'Germany':
                     strip_text=element_text(size=12),
                 )
             )
+
+            st.pyplot(ggplot.draw(p))
 
 # IF POLAND IS CHOSEN    
     
