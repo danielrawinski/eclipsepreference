@@ -23,7 +23,7 @@ st.header('Solar eclipse viewing spot preference calculator - 2025.03 partial ec
 countryselector = st.selectbox('First, choose a country:', ['Select', 'Germany','Poland'])
 
 if countryselector == 'Germany':
-    regionselector = st.selectbox('Now, choose a district:', regions_de)
+    regionselector = st.selectbox('Now, choose a district:', options=['Select']+regions_de)
     
     if regionselector:
         st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
@@ -35,7 +35,7 @@ if countryselector == 'Germany':
         dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', value=0.33)      
     
 if countryselector == 'Poland':
-    regionselector = st.selectbox('Now, choose a powiat:', regions_pl)
+    regionselector = st.selectbox('Now, choose a powiat:', options=['Select']+regions_pl)
     
     if regionselector:
         st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
