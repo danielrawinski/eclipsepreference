@@ -10,8 +10,8 @@ from plotnine import *
 conditions_pl = pd.read_csv(r"poland_2025_eclipse_conditions_with_clouds.csv", sep = ";")
 conditions_de = pd.read_csv(r"germany_2025_eclipse_conditions_with_clouds.csv", sep = ";")
 
-distancematrix_pl = pd.read_csv(r"F:\macierz_odleglosci_pl.csv", sep = ";").set_index('ID')
-distancematrix_de = pd.read_csv(r"F:\macierz_odleglosci_de.csv", sep = ";").set_index('ID')
+distancematrix_pl = pd.read_csv(r"macierz_odleglosci_pl.csv", sep = ";").set_index('ID')
+distancematrix_de = pd.read_csv(r"macierz_odleglosci_de.csv", sep = ";").set_index('ID')
 
 regions_pl = sorted(conditions_pl['JPT_NAZWA_'].values.tolist())
 regions_de = sorted(conditions_de['krs_name'].values.tolist())
@@ -63,7 +63,7 @@ if countryselector == 'Germany':
             print(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
             
             
-            deutschland = gpd.read_file('F:\georef-germany-kreis@public\georef-germany-kreis-millesime.shp')
+            deutschland = gpd.read_file('georef-germany-kreis@public\georef-germany-kreis-millesime.shp')
 
             map_sp_df = deutschland.merge(conditions_for_choice, left_on='krs_code', right_on='krs_code')
 
