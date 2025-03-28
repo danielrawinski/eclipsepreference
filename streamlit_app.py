@@ -146,7 +146,7 @@ if countryselector == 'Poland':
             st.write('The best conditions according to your preferences are in:')
             st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
 
-            url = 'https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l/view?usp=drive_link'
+            url = 'https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l.shp/view?usp=drive_link'
             url = 'https://drive.google.com/uc?id=' + url.split('/')[-2]
             
             polen = gpd.read_file(url)
