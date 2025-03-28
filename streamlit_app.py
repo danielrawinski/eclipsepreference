@@ -115,5 +115,63 @@ if countryselector == 'Poland':
         clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
 
+        if obs_pref + clouds_pref + dist_pref == 1:
+            id_chosen = conditions_pl.loc[conditions_pl['JPT_NAZWA_'] == regionselector, 'JPT_KOD_JE'].iloc[0]
+            distlist = distancematrix_pl[str(id_chosen)].tolist()
+            distlistnorm = []
+            
+            for i in range(len(distlist)):
+                distlistnorm.append(1 - ((distlist[i] - min(distlist)) / (max(distlist) - min(distlist))))  # 1-norm distance because the smaller distance the better
+            
+            conditions_for_choice = conditions_pl[['JPT_KOD_JE', 'JPT_NAZWA', 'obscuration', 'Clouds']]
+
+            conditions_for_choice['distance in km'] = distlist
+            conditions_for_choice['distance in km'] = conditions_for_choice['distance in km'] / 1000
+            conditions_for_choice['distance_norm'] = distlistnorm #adding normalised slice of a distance matrix
+
+            conditions_for_choice['obscuration_norm'] = (conditions_for_choice['obscuration'] - conditions_for_choice['obscuration'].min()) / (conditions_for_choice['obscuration'].max() - conditions_for_choice['obscuration'].min()) # normalizing obscuration
+            conditions_for_choice['clouds_norm'] = 1 - ((conditions_for_choice['Clouds'] - conditions_for_choice['Clouds'].min()) / (conditions_for_choice['Clouds'].max() - conditions_for_choice['Clouds'].min())) #normalizing cloud cover, 1-norm because we want the least clouds possible
+
+            conditions_for_choice['preference index'] = obs_pref * conditions_for_choice['obscuration_norm'] + clouds_pref * conditions_for_choice['clouds_norm'] + dist_pref * conditions_for_choice['distance_norm']
+            
+            display_df = conditions_for_choice[['JPT_NAZWA_', 'obscuration', 'Clouds', 'distance in km', 'preference index']]
+            display_df.rename(columns={'JPT_NAZWA_': 'Powiat name', 'obscuration': 'Percentage of Sun covered', 'Clouds': 'Cloud cover', 'distance in km': 'Distance in km', 'preference index': 'Preference index'}, inplace=True)
+            
+            st.write('The viewing conditions at your residence are:')
+            st.markdown(display_df.loc[display_df['Powiat name'] == regionalselector].to_markdown(index=False))
+            
+            st.write('The best conditions according to your preferences are in:')
+            st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
+            
+            polen = gpd.read_file('https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l/view?usp=sharing')
+
+            map_sp_df = pd.concat([polen, conditions_for_choice], axis=1)
+
+            p = (
+                ggplot(map_sp_df)
+                + geom_map(aes(fill="preference index"))
+                + scale_fill_continuous(
+                    name="Preference index",
+                    # cmap_name="gnuplot",
+                    breaks=[0, 0.25, 0.5, 0.75, 1],
+                    labels=["0", "0.25", "0.5", "0.75", "1"],
+                    limits=[0, 1],
+                )
+                + coord_fixed(expand=False)
+                + theme_void()
+                + theme(
+                    figure_size=(12, 12),
+                    plot_margin=0.1,
+                    plot_background=element_rect(fill="white"),
+                    # panel_spacing=0.025,
+                    # legend_frame=element_rect(color="black"),
+                    # legend_ticks=element_line(color="black"),
+                    strip_text=element_text(size=12),
+                )
+            )
+
+            st.pyplot(ggplot.draw(p))
+
+
 
 st.write('Developed with care and pain by Daniel Rawinski. Huge moral support of Kateryna Zabarina')
