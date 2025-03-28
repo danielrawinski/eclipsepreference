@@ -65,11 +65,8 @@ if countryselector == 'Germany':
             display_df = conditions_for_choice[['krs_name_sh', 'obscuration', 'Clouds', 'distance in km', 'preference index']]
             display_df.rename(columns={'krs_name_sh': 'District name', 'obscuration': 'Percentage of Sun covered', 'Clouds': 'Cloud cover', 'distance in km': 'Distance in km', 'preference index': 'Preference index'}, inplace=True)
 
-            st.write('The best conditions according to your preferences are:')
+            st.write('The best conditions according to your preferences are in:')
             st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
-
-            st.write('The conditions at the place of your residence are:')
-            st.markdown(display_df.loc[display_df['krs_name'] == regionselector].to_markdown(index=False))
             
             deutschland = gpd.read_file('georef-germany-kreis-millesime.shp')
 
