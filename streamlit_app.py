@@ -123,7 +123,7 @@ if countryselector == 'Poland':
             for i in range(len(distlist)):
                 distlistnorm.append(1 - ((distlist[i] - min(distlist)) / (max(distlist) - min(distlist))))  # 1-norm distance because the smaller distance the better
             
-            conditions_for_choice = conditions_pl[['JPT_KOD_JE', 'JPT_NAZWA', 'obscuration', 'Clouds']]
+            conditions_for_choice = conditions_pl[['JPT_KOD_JE', 'JPT_NAZWA_', 'obscuration', 'Clouds']]
 
             conditions_for_choice['distance in km'] = distlist
             conditions_for_choice['distance in km'] = conditions_for_choice['distance in km'] / 1000
