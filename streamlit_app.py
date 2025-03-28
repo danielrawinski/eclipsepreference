@@ -77,7 +77,7 @@ if countryselector == 'Germany':
                 + geom_map(aes(fill="preference index"))
                 + scale_fill_continuous(
                     name="Preference index",
-                    cmap_name="gnuplot",
+                    # cmap_name="gnuplot",
                     breaks=[0, 0.25, 0.5, 0.75, 1],
                     labels=["0", "0.25", "0.5", "0.75", "1"],
                     limits=[0, 1],
@@ -88,7 +88,7 @@ if countryselector == 'Germany':
                     figure_size=(12, 12),
                     plot_margin=0.1,
                     plot_background=element_rect(fill="white"),
-                    panel_spacing=0.025,
+                    # panel_spacing=0.025,
                     # legend_frame=element_rect(color="black"),
                     # legend_ticks=element_line(color="black"),
                     strip_text=element_text(size=12),
