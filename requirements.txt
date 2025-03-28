@@ -1,6 +1,5 @@
-python==3.7.7
+python
 pandas
 pygeos
 streamlit
-mizani==0.7.3
-plotnine==0.8.0
+altair
