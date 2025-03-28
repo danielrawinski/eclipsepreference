@@ -42,7 +42,7 @@ if countryselector == 'Germany':
         obs_pref = st.slider('Preference for how much sun is obscured', min_value = 0.0, max_value = 1.0, value = 0.0)
         clouds_pref = st.slider('Preference for how little clouds are there on the sky during eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
         dist_pref = st.slider('Preference for how far would you have to travel to see the eclipse', min_value = 0.0, max_value = 1.0, value = 0.0)
-        krs_short = conditions_de.loc[conditions_de['krs_name'] == regionalselector, 'krs_name_sh'].iloc[0]
+        krs_short = conditions_de.loc[conditions_de['krs_name'] == regionselector, 'krs_name_sh'].iloc[0]
         
         if obs_pref + clouds_pref + dist_pref == 1:
             id_chosen = conditions_de.loc[conditions_de['krs_name'] == regionselector, 'krs_code'].iloc[0]
