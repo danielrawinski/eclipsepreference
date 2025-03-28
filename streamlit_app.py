@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import geopandas as gpd
 from plotnine import *
+from pyogrio import set_gdal_config_options
 
 # =============================================================================
 # Importing files and defining variables
@@ -15,6 +16,10 @@ distancematrix_de = pd.read_csv(r"macierz_odleglosci_de.csv", sep = ";").set_ind
 
 regions_pl = sorted(conditions_pl['JPT_NAZWA_'].values.tolist())
 regions_de = sorted(conditions_de['krs_name'].values.tolist())
+
+set_gdal_config_options({
+    'SHAPE_RESTORE_SHX': 'YES',
+})
 
 # =============================================================================
 # Page body
