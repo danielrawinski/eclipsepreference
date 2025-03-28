@@ -1,0 +1,401 @@
+;Unnamed: 0;krs_code;krs_name;krs_type;krs_name_sh;lon_centr;lat_centr;magnitude;obscuration;Clouds
+0;0;['03255'];Landkreis Holzminden;Landkreis;Holzminden;9.551421899;51.88055926;0.296;18.7;100
+1;1;['03456'];Landkreis Grafschaft Bentheim;Landkreis;Grafschaft Bentheim;7.019877583;52.47606107;0.338;22.7;10
+2;2;['05762'];Kreis Höxter;Kreis;Höxter;9.178102631;51.68493898;0.297;18.8;100
+3;3;['06534'];Landkreis Marburg-Biedenkopf;Landkreis;Marburg-Biedenkopf;8.738025455;50.836869;0.289;18.1;100
+4;4;['07140'];Landkreis Rhein-Hunsrück-Kreis;Landkreis;Landkreis Rhein-Hunsrück-Kreis;7.500119081;50.04424227;0.293;18.4;100
+5;5;['07232'];Landkreis Eifelkreis Bitburg-Prüm;Landkreis;Landkreis Eifelkreis Bitburg-Prüm;6.410146922;50.06215196;0.309;19.8;93
+6;6;['09177'];Landkreis Erding;Landkreis;Erding;12.00064095;48.30041408;0.2;10.5;100
+7;7;['09271'];Landkreis Deggendorf;Landkreis;Deggendorf;13.00068746;48.77870373;0.194;10.1;100
+8;8;['09577'];Landkreis Weißenburg-Gunzenhausen;Landkreis;Weißenburg-Gunzenhausen;10.89366269;49.03266339;0.229;12.8;100
+9;9;['09776'];Landkreis Lindau (Bodensee);Landkreis;Lindau (Bodensee);9.882868618;47.60516875;0.218;12.0;100
+10;10;['13003'];Kreisfreie Stadt Rostock;Kreisfreie Stadt;Rostock;12.14300145;54.14732647;0.301;19.2;100
+11;11;['13072'];Landkreis Rostock;Landkreis;Rostock;12.22105169;53.91197992;0.296;18.7;100
+12;12;['13075'];Landkreis Vorpommern-Greifswald;Landkreis;Vorpommern-Greifswald;13.78043235;53.78933115;0.275;16.8;64
+13;13;['14522'];Landkreis Mittelsachsen;Landkreis;Mittelsachsen;13.13751627;50.9558051;0.232;13.1;100
+14;14;['16066'];Landkreis Schmalkalden-Meiningen;Landkreis;Schmalkalden-Meiningen;10.39674522;50.6310595;0.264;15.8;100
+15;15;['01004'];Kreisfreie Stadt Neumünster;Kreisfreie Stadt;Neumünster;9.984668887;54.08112559;0.327;21.5;97
+16;16;['03404'];Kreisfreie Stadt Osnabrück;Kreisfreie Stadt;Osnabrück;8.046969693;52.27766934;0.322;21.1;78
+17;17;['05116'];Kreisfreie Stadt Mönchengladbach;Kreisfreie Stadt;Mönchengladbach;6.412017352;51.16719826;0.326;21.5;14
+18;18;['05558'];Kreis Coesfeld;Kreis;Coesfeld;7.366003225;51.86685621;0.324;21.3;60
+19;19;['05774'];Kreis Paderborn;Kreis;Paderborn;8.719661035;51.66416915;0.303;19.3;100
+20;20;['06611'];Kreisfreie Stadt Kassel;Kreisfreie Stadt;Kassel;9.460426821;51.31144519;0.288;17.9;100
+21;21;['06632'];Landkreis Hersfeld-Rotenburg;Landkreis;Hersfeld-Rotenburg;9.752938912;50.9061724;0.277;17.0;100
+22;22;['06634'];Landkreis Schwalm-Eder-Kreis;Landkreis;Landkreis Schwalm-Eder-Kreis;9.373674772;51.02379361;0.284;17.6;100
+23;23;['07143'];Landkreis Westerwaldkreis;Landkreis;Landkreis Westerwaldkreis;7.865682673;50.55234661;0.297;18.7;100
+24;24;['07311'];Kreisfreie Stadt Frankenthal (Pfalz);Kreisfreie Stadt;Frankenthal (Pfalz);8.357009818;49.53325549;0.273;16.6;100
+25;25;['08115'];Landkreis Böblingen;Landkreis;Böblingen;8.942778572;48.67822414;0.25;14.6;100
+26;26;['09372'];Landkreis Cham;Landkreis;Cham;12.69428402;49.23710439;0.207;11.1;100
+27;27;['10044'];Landkreis Saarlouis;Landkreis;Saarlouis;6.775585327;49.35533869;0.292;18.3;100
+28;28;['15082'];Landkreis Anhalt-Bitterfeld;Landkreis;Anhalt-Bitterfeld;12.14326141;51.79544516;0.261;15.5;99
+29;29;['15086'];Landkreis Jerichower Land;Landkreis;Jerichower Land;12.02652674;52.26078467;0.27;16.4;97
+30;30;['16065'];Landkreis Kyffhäuserkreis;Landkreis;Landkreis Kyffhäuserkreis;10.98481846;51.32476283;0.268;16.1;100
+31;31;['03157'];Landkreis Peine;Landkreis;Peine;10.25533984;52.30420532;0.294;18.5;100
+32;32;['05316'];Kreisfreie Stadt Leverkusen;Kreisfreie Stadt;Leverkusen;7.015410138;51.05307989;0.316;20.5;64
+33;33;['05954'];Kreis Ennepe-Ruhr-Kreis;Kreis;Kreis Ennepe-Ruhr-Kreis;7.324046816;51.34682938;0.317;20.6;74
+34;34;['05962'];Kreis Märkischer Kreis;Kreis;Kreis Märkischer Kreis;7.712956603;51.26259848;0.31;20.0;100
+35;35;['07131'];Landkreis Ahrweiler;Landkreis;Ahrweiler;7.044993639;50.46759385;0.306;19.6;99
+36;36;['08211'];Stadtkreis Baden-Baden;Stadtkreis;Baden-Baden;8.231908135;48.74846538;0.262;15.6;100
+37;37;['08337'];Landkreis Waldshut;Landkreis;Waldshut;8.218887663;47.69712369;0.244;14.1;100
+38;38;['09173'];Landkreis Bad Tölz-Wolfratshausen;Landkreis;Bad Tölz-Wolfratshausen;11.48311756;47.72747884;0.197;10.3;100
+39;39;['09275'];Landkreis Passau;Landkreis;Passau;13.36661308;48.55869455;0.185;9.4;100
+40;40;['09478'];Landkreis Lichtenfels;Landkreis;Lichtenfels;11.11686675;50.10932808;0.245;14.2;100
+41;41;['09479'];Landkreis Wunsiedel i.Fichtelgebirge;Landkreis;Wunsiedel i.Fichtelgebirge;12.04186728;50.09014451;0.232;13.1;100
+42;42;['09571'];Landkreis Ansbach;Landkreis;Ansbach;10.46814493;49.24814867;0.239;13.6;100
+43;43;['09663'];Kreisfreie Stadt Würzburg;Kreisfreie Stadt;Würzburg;9.940866788;49.78470165;0.255;15.1;100
+44;44;['12067'];Landkreis Oder-Spree;Landkreis;Oder-Spree;14.21904068;52.24402346;0.242;13.9;100
+45;45;['12069'];Landkreis Potsdam-Mittelmark;Landkreis;Potsdam-Mittelmark;12.68915901;52.24629001;0.261;15.6;95
+46;46;['12073'];Landkreis Uckermark;Landkreis;Uckermark;13.86127741;53.20590304;0.264;15.8;92
+47;47;['14628'];Landkreis Sächsische Schweiz-Osterzgebirge;Landkreis;Sächsische Schweiz-Osterzgebirge;13.87342805;50.91671092;0.222;12.3;100
+48;48;['14713'];Kreisfreie Stadt Leipzig;Kreisfreie Stadt;Leipzig;12.37478241;51.342214;0.249;14.6;100
+49;49;['16053'];Kreisfreie Stadt Jena;Kreisfreie Stadt;Jena;11.58697427;50.92424017;0.253;14.8;100
+50;50;['16067'];Landkreis Gotha;Landkreis;Gotha;10.69372042;50.91064664;0.264;15.8;100
+51;51;['01056'];Kreis Pinneberg;Kreis;Pinneberg;9.738232035;53.7176459;0.324;21.3;95
+52;52;['01059'];Kreis Schleswig-Flensburg;Kreis;Schleswig-Flensburg;9.503385414;54.62357552;0.341;23.0;85
+53;53;['01061'];Kreis Steinburg;Kreis;Steinburg;9.519403922;53.92891686;0.33;21.9;100
+54;54;['03361'];Landkreis Verden;Landkreis;Verden;9.175483659;52.97320926;0.319;20.8;100
+55;55;['03401'];Kreisfreie Stadt Delmenhorst;Kreisfreie Stadt;Delmenhorst;8.645620248;53.04941966;0.327;21.5;83
+56;56;['05154'];Kreis Kleve;Kreis;Kleve;6.25882366;51.65235889;0.335;22.4;7
+57;57;['05758'];Kreis Herford;Kreis;Herford;8.643942834;52.16760611;0.312;20.2;100
+58;58;['05913'];Kreisfreie Stadt Dortmund;Kreisfreie Stadt;Dortmund;7.474891738;51.51607935;0.317;20.7;71
+59;59;['06414'];Kreisfreie Stadt Wiesbaden;Kreisfreie Stadt;Wiesbaden;8.26037689;50.07919875;0.283;17.5;100
+60;60;['06434'];Landkreis Hochtaunuskreis;Landkreis;Landkreis Hochtaunuskreis;8.504676464;50.28162163;0.283;17.5;100
+61;61;['06633'];Landkreis Kassel;Landkreis;Kassel;9.407004296;51.40132826;0.29;18.1;100
+62;62;['07135'];Landkreis Cochem-Zell;Landkreis;Cochem-Zell;7.1743112;50.13287542;0.299;19.0;100
+63;63;['07141'];Landkreis Rhein-Lahn-Kreis;Landkreis;Landkreis Rhein-Lahn-Kreis;7.8427183;50.26329846;0.292;18.3;100
+64;64;['08121'];Stadtkreis Heilbronn;Stadtkreis;Heilbronn;9.182319747;49.15270884;0.255;15.0;100
+65;65;['09376'];Landkreis Schwandorf;Landkreis;Schwandorf;12.25249205;49.36853302;0.216;11.8;100
+66;66;['09778'];Landkreis Unterallgäu;Landkreis;Unterallgäu;10.38922012;48.03980772;0.219;12.0;100
+67;67;['12053'];Kreisfreie Stadt Frankfurt (Oder);Kreisfreie Stadt;Frankfurt (Oder);14.49030659;52.32477669;0.24;13.7;99
+68;68;['12061'];Landkreis Dahme-Spreewald;Landkreis;Dahme-Spreewald;13.81999171;52.042339;0.243;14.0;100
+69;69;['14729'];Landkreis Leipzig;Landkreis;Leipzig;12.59952547;51.22145936;0.244;14.1;100
+70;70;['15003'];Kreisfreie Stadt Magdeburg;Kreisfreie Stadt;Magdeburg;11.64130636;52.1165038;0.273;16.6;100
+71;71;['16063'];Landkreis Wartburgkreis;Landkreis;Landkreis Wartburgkreis;10.21923689;50.90091079;0.271;16.4;100
+72;72;['16064'];Landkreis Unstrut-Hainich-Kreis;Landkreis;Landkreis Unstrut-Hainich-Kreis;10.56045864;51.17946912;0.271;16.4;100
+73;73;['05711'];Kreisfreie Stadt Bielefeld;Kreisfreie Stadt;Bielefeld;8.540791576;52.01098018;0.311;20.1;100
+74;74;['05911'];Kreisfreie Stadt Bochum;Kreisfreie Stadt;Bochum;7.224960713;51.46990041;0.32;20.9;61
+75;75;['06631'];Landkreis Fulda;Landkreis;Fulda;9.759144473;50.5638835;0.271;16.4;100
+76;76;['08216'];Landkreis Rastatt;Landkreis;Rastatt;8.241217256;48.76182333;0.262;15.6;100
+77;77;['08315'];Landkreis Breisgau-Hochschwarzwald;Landkreis;Breisgau-Hochschwarzwald;7.924996556;47.92487963;0.253;14.8;100
+78;78;['09175'];Landkreis Ebersberg;Landkreis;Ebersberg;11.91318015;48.07617984;0.197;10.3;100
+79;79;['09277'];Landkreis Rottal-Inn;Landkreis;Rottal-Inn;12.86736622;48.42450752;0.19;9.8;100
+80;80;['09471'];Landkreis Bamberg;Landkreis;Bamberg;10.88364721;49.89341886;0.244;14.1;100
+81;81;['09678'];Landkreis Schweinfurt;Landkreis;Schweinfurt;10.25998458;50.01687653;0.255;15.0;100
+82;82;['10046'];Landkreis St. Wendel;Landkreis;St. Wendel;7.100429039;49.51956446;0.29;18.2;100
+83;83;['15085'];Landkreis Harz;Landkreis;Harz;10.95858632;51.82128005;0.276;16.9;100
+84;84;['16052'];Kreisfreie Stadt Gera;Kreisfreie Stadt;Gera;12.08271969;50.89400492;0.245;14.2;100
+85;85;['16055'];Kreisfreie Stadt Weimar;Kreisfreie Stadt;Weimar;11.31788659;50.97829049;0.257;15.2;100
+86;86;['01003'];Kreisfreie Stadt Lübeck;Kreisfreie Stadt;Lübeck;10.7275953;53.87249351;0.314;20.4;100
+87;87;['01054'];Kreis Nordfriesland;Kreis;Nordfriesland;8.896145444;54.61549104;0.348;23.7;58
+88;88;['03155'];Landkreis Northeim;Landkreis;Northeim;9.848034897;51.7426367;0.29;18.1;100
+89;89;['03405'];Kreisfreie Stadt Wilhelmshaven;Kreisfreie Stadt;Wilhelmshaven;8.087572147;53.56684117;0.342;23.0;38
+90;90;['05113'];Kreisfreie Stadt Essen;Kreisfreie Stadt;Essen;7.01711447;51.43386124;0.322;21.1;35
+91;91;['05515'];Kreisfreie Stadt Münster;Kreisfreie Stadt;Münster;7.623636929;51.95431601;0.322;21.1;70
+92;92;['05562'];Kreis Recklinghausen;Kreis;Recklinghausen;7.159242142;51.67246122;0.324;21.3;48
+93;93;['06438'];Landkreis Offenbach;Landkreis;Offenbach;8.811342496;50.02168164;0.275;16.8;100
+94;94;['07211'];Kreisfreie Stadt Trier;Kreisfreie Stadt;Trier;6.655007419;49.762702;0.3;19.1;91
+95;95;['07231'];Landkreis Bernkastel-Wittlich;Landkreis;Bernkastel-Wittlich;6.967271106;49.92466419;0.299;18.9;100
+96;96;['07319'];Kreisfreie Stadt Worms;Kreisfreie Stadt;Worms;8.324519419;49.64941808;0.275;16.8;100
+97;97;['08125'];Landkreis Heilbronn;Landkreis;Heilbronn;9.190817811;49.17713444;0.255;15.1;100
+98;98;['09161'];Kreisfreie Stadt Ingolstadt;Kreisfreie Stadt;Ingolstadt;11.39483786;48.75516441;0.217;11.9;100
+99;99;['09474'];Landkreis Forchheim;Landkreis;Forchheim;11.17312827;49.72099284;0.237;13.5;100
+100;100;['09572'];Landkreis Erlangen-Höchstadt;Landkreis;Erlangen-Höchstadt;10.91486259;49.64004641;0.239;13.7;100
+101;101;['15087'];Landkreis Mansfeld-Südharz;Landkreis;Mansfeld-Südharz;11.35638688;51.53567091;0.266;16.0;100
+102;102;['05770'];Kreis Minden-Lübbecke;Kreis;Minden-Lübbecke;8.739321342;52.35248224;0.314;20.4;100
+103;103;['05915'];Kreisfreie Stadt Hamm;Kreisfreie Stadt;Hamm;7.823567424;51.6652174;0.315;20.4;98
+104;104;['06436'];Landkreis Main-Taunus-Kreis;Landkreis;Landkreis Main-Taunus-Kreis;8.434568023;50.10257206;0.281;17.4;100
+105;105;['07314'];Kreisfreie Stadt Ludwigshafen am Rhein;Kreisfreie Stadt;Ludwigshafen am Rhein;8.396775234;49.48209112;0.272;16.5;100
+106;106;['08116'];Landkreis Esslingen;Landkreis;Esslingen;9.369077539;48.64802962;0.244;14.1;100
+107;107;['09174'];Landkreis Dachau;Landkreis;Dachau;11.35711292;48.33454395;0.21;11.3;100
+108;108;['09672'];Landkreis Bad Kissingen;Landkreis;Bad Kissingen;9.964698555;50.22252192;0.262;15.7;100
+109;109;['16051'];Kreisfreie Stadt Erfurt;Kreisfreie Stadt;Erfurt;11.02022116;50.98325065;0.261;15.6;99
+110;110;['01001'];Kreisfreie Stadt Flensburg;Kreisfreie Stadt;Flensburg;9.438435468;54.78495923;0.345;23.3;78
+111;111;['01051'];Kreis Dithmarschen;Kreis;Dithmarschen;9.10750623;54.13382154;0.338;22.7;90
+112;112;['03252'];Landkreis Hameln-Pyrmont;Landkreis;Hameln-Pyrmont;9.389888245;52.09508969;0.301;19.2;100
+113;113;['03351'];Landkreis Celle;Landkreis;Celle;10.10353701;52.71331552;0.303;19.3;100
+114;114;['03353'];Landkreis Harburg;Landkreis;Harburg;9.96279702;53.31577307;0.314;20.4;100
+115;115;['05111'];Kreisfreie Stadt Düsseldorf;Kreisfreie Stadt;Düsseldorf;6.810052101;51.23545379;0.322;21.1;31
+116;116;['05358'];Kreis Düren;Kreis;Düren;6.445544048;50.8179426;0.32;20.9;40
+117;117;['05974'];Kreis Soest;Kreis;Soest;8.21744151;51.56443844;0.308;19.8;100
+118;118;['06411'];Kreisfreie Stadt Darmstadt;Kreisfreie Stadt;Darmstadt;8.664898551;49.88161782;0.275;16.7;100
+119;119;['06413'];Kreisfreie Stadt Offenbach am Main;Kreisfreie Stadt;Offenbach am Main;8.780826021;50.0911351;0.276;16.9;100
+120;120;['06636'];Landkreis Werra-Meißner-Kreis;Landkreis;Landkreis Werra-Meißner-Kreis;9.928937911;51.19075736;0.279;17.2;100
+121;121;['07137'];Landkreis Mayen-Koblenz;Landkreis;Mayen-Koblenz;7.332244137;50.33162502;0.3;19.1;100
+122;122;['07332'];Landkreis Bad Dürkheim;Landkreis;Bad Dürkheim;8.110301172;49.45301376;0.275;16.8;100
+123;123;['09181'];Landkreis Landsberg am Lech;Landkreis;Landsberg am Lech;10.94873399;48.02445356;0.21;11.3;100
+124;124;['09779'];Landkreis Donau-Ries;Landkreis;Donau-Ries;10.71234451;48.80693604;0.227;12.7;100
+125;125;['12064'];Landkreis Märkisch-Oderland;Landkreis;Märkisch-Oderland;14.14646426;52.60670264;0.249;14.5;99
+126;126;['12070'];Landkreis Prignitz;Landkreis;Prignitz;11.96188835;53.10933853;0.286;17.7;98
+127;127;['15084'];Landkreis Burgenlandkreis;Landkreis;Landkreis Burgenlandkreis;11.88344355;51.14723005;0.253;14.8;100
+128;128;['15090'];Landkreis Stendal;Landkreis;Stendal;11.83951441;52.69679446;0.28;17.2;100
+129;129;['16071'];Landkreis Weimarer Land;Landkreis;Weimarer Land;11.37351933;50.97157884;0.256;15.1;100
+130;130;['03251'];Landkreis Diepholz;Landkreis;Diepholz;8.701812031;52.7284505;0.321;21.0;87
+131;131;['03402'];Kreisfreie Stadt Emden;Kreisfreie Stadt;Emden;7.180595174;53.36105919;0.35;23.8;13
+132;132;['05513'];Kreisfreie Stadt Gelsenkirchen;Kreisfreie Stadt;Gelsenkirchen;7.071166183;51.55393159;0.323;21.2;41
+133;133;['05570'];Kreis Warendorf;Kreis;Warendorf;7.958310348;51.87022745;0.317;20.6;91
+134;134;['08421'];Stadtkreis Ulm;Stadtkreis;Ulm;9.95002201;48.39090057;0.231;13.0;100
+135;135;['09189'];Landkreis Traunstein;Landkreis;Traunstein;12.57954086;47.89454343;0.184;9.3;100
+136;136;['09362'];Kreisfreie Stadt Regensburg;Kreisfreie Stadt;Regensburg;12.11369684;49.01300772;0.211;11.4;100
+137;137;['09363'];Kreisfreie Stadt Weiden i.d.OPf.;Kreisfreie Stadt;Weiden i.d.OPf.;12.15451835;49.66922193;0.223;12.3;100
+138;138;['09561'];Kreisfreie Stadt Ansbach;Kreisfreie Stadt;Ansbach;10.56365093;49.29218194;0.238;13.6;100
+139;139;['09673'];Landkreis Rhön-Grabfeld;Landkreis;Rhön-Grabfeld;10.25489248;50.37131575;0.261;15.6;100
+140;140;['12068'];Landkreis Ostprignitz-Ruppin;Landkreis;Ostprignitz-Ruppin;12.63596344;52.99140603;0.275;16.8;87
+141;141;['01002'];Kreisfreie Stadt Kiel;Kreisfreie Stadt;Kiel;10.13251714;54.32477821;0.329;21.8;95
+142;142;['03151'];Landkreis Gifhorn;Landkreis;Gifhorn;10.60418239;52.58027439;0.294;18.5;100
+143;143;['03154'];Landkreis Helmstedt;Landkreis;Helmstedt;10.88883658;52.26073459;0.285;17.7;100
+144;144;['03354'];Landkreis Lüchow-Dannenberg;Landkreis;Lüchow-Dannenberg;11.12299569;53.01984499;0.295;18.6;100
+145;145;['03357'];Landkreis Rotenburg (Wümme);Landkreis;Rotenburg (Wümme);9.3065952;53.25073648;0.321;21.1;94
+146;146;['05366'];Kreis Euskirchen;Kreis;Euskirchen;6.644152877;50.5364761;0.313;20.2;96
+147;147;['05966'];Kreis Olpe;Kreis;Olpe;7.976469667;51.08618756;0.304;19.4;100
+148;148;['06532'];Landkreis Lahn-Dill-Kreis;Landkreis;Landkreis Lahn-Dill-Kreis;8.365335002;50.64822748;0.291;18.3;100
+149;149;['08436'];Landkreis Ravensburg;Landkreis;Ravensburg;9.779908802;47.8250432;0.224;12.4;100
+150;150;['09163'];Kreisfreie Stadt Rosenheim;Kreisfreie Stadt;Rosenheim;12.10903261;47.8444687;0.19;9.8;100
+151;151;['09178'];Landkreis Freising;Landkreis;Freising;11.74066971;48.44734766;0.206;11.0;100
+152;152;['09180'];Landkreis Garmisch-Partenkirchen;Landkreis;Garmisch-Partenkirchen;11.1295938;47.55635857;0.199;10.5;100
+153;153;['09375'];Landkreis Regensburg;Landkreis;Regensburg;12.1211508;49.0213539;0.211;11.4;100
+154;154;['09377'];Landkreis Tirschenreuth;Landkreis;Tirschenreuth;12.2003417;49.89939151;0.226;12.6;100
+155;155;['09762'];Kreisfreie Stadt Kaufbeuren;Kreisfreie Stadt;Kaufbeuren;10.61608942;47.87994461;0.213;11.5;100
+156;156;['09780'];Landkreis Oberallgäu;Landkreis;Oberallgäu;10.25862256;47.57269186;0.212;11.5;100
+157;157;['10041'];Landkreis Regionalverband Saarbrücken;Landkreis;Landkreis Regionalverband Saarbrücken;6.957292207;49.25137255;0.288;18.0;100
+158;158;['16077'];Landkreis Altenburger Land;Landkreis;Altenburger Land;12.39911452;50.95641417;0.242;14.0;100
+159;159;['01057'];Kreis Plön;Kreis;Plön;10.36369846;54.24334035;0.325;21.4;100
+160;160;['03256'];Landkreis Nienburg (Weser);Landkreis;Nienburg (Weser);9.114351627;52.60920573;0.313;20.3;100
+161;161;['03454'];Landkreis Emsland;Landkreis;Emsland;7.402690461;52.73829491;0.337;22.6;14
+162;162;['03462'];Landkreis Wittmund;Landkreis;Wittmund;7.705577749;53.57617786;0.347;23.5;35
+163;163;['05958'];Kreis Hochsauerlandkreis;Kreis;Kreis Hochsauerlandkreis;8.385007091;51.30685565;0.302;19.2;100
+164;164;['06439'];Landkreis Rheingau-Taunus-Kreis;Landkreis;Landkreis Rheingau-Taunus-Kreis;8.081149602;50.14198254;0.287;17.9;100
+165;165;['08117'];Landkreis Göppingen;Landkreis;Göppingen;9.717477185;48.66314333;0.239;13.7;100
+166;166;['08311'];Stadtkreis Freiburg im Breisgau;Stadtkreis;Freiburg im Breisgau;7.818057635;47.99265226;0.255;15.1;100
+167;167;['09274'];Landkreis Landshut;Landkreis;Landshut;12.19542412;48.55776547;0.202;10.7;100
+168;168;['09276'];Landkreis Regen;Landkreis;Regen;13.09981742;49.02278827;0.198;10.3;100
+169;169;['09463'];Kreisfreie Stadt Coburg;Kreisfreie Stadt;Coburg;10.96443661;50.26387254;0.249;14.6;100
+170;170;['10043'];Landkreis Neunkirchen;Landkreis;Neunkirchen;7.117218793;49.37570247;0.288;17.9;100
+171;171;['13074'];Landkreis Nordwestmecklenburg;Landkreis;Nordwestmecklenburg;11.25205551;53.8214816;0.307;19.7;100
+172;172;['05916'];Kreisfreie Stadt Herne;Kreisfreie Stadt;Herne;7.208559399;51.53752898;0.321;21.0;53
+173;173;['07132'];Landkreis Altenkirchen (Westerwald);Landkreis;Altenkirchen (Westerwald);7.744141123;50.75074399;0.301;19.2;100
+174;174;['07312'];Kreisfreie Stadt Kaiserslautern;Kreisfreie Stadt;Kaiserslautern;7.760709397;49.43280071;0.28;17.2;100
+175;175;['07339'];Landkreis Mainz-Bingen;Landkreis;Mainz-Bingen;8.079612769;49.92203678;0.283;17.5;100
+176;176;['08135'];Landkreis Heidenheim;Landkreis;Heidenheim;10.18213937;48.66225375;0.233;13.1;100
+177;177;['08231'];Stadtkreis Pforzheim;Stadtkreis;Pforzheim;8.712595628;48.8764227;0.257;15.2;100
+178;178;['08416'];Landkreis Tübingen;Landkreis;Tübingen;8.987611593;48.48175137;0.247;14.3;100
+179;179;['08435'];Landkreis Bodenseekreis;Landkreis;Landkreis Bodenseekreis;9.400766331;47.73346203;0.228;12.7;100
+180;180;['09182'];Landkreis Miesbach;Landkreis;Miesbach;11.80899945;47.74163064;0.193;10.0;100
+181;181;['09183'];Landkreis Mühldorf a.Inn;Landkreis;Mühldorf a.Inn;12.38184891;48.23933555;0.193;10.0;100
+182;182;['09185'];Landkreis Neuburg-Schrobenhausen;Landkreis;Neuburg-Schrobenhausen;11.1972147;48.66442724;0.218;12.0;100
+183;183;['09188'];Landkreis Starnberg;Landkreis;Starnberg;11.28173284;48.00604647;0.205;10.9;100
+184;184;['09573'];Landkreis Fürth;Landkreis;Fürth;10.84966665;49.44669072;0.237;13.5;100
+185;185;['09675'];Landkreis Kitzingen;Landkreis;Kitzingen;10.25604315;49.75323936;0.25;14.6;100
+186;186;['09774'];Landkreis Günzburg;Landkreis;Günzburg;10.38112808;48.35281157;0.224;12.5;100
+187;187;['12063'];Landkreis Havelland;Landkreis;Havelland;12.62833721;52.620813;0.269;16.2;82
+188;188;['12072'];Landkreis Teltow-Fläming;Landkreis;Teltow-Fläming;13.27604843;52.07311901;0.251;14.7;100
+189;189;['15083'];Landkreis Börde;Landkreis;Börde;11.34784255;52.22074688;0.278;17.1;100
+190;190;['03103'];Kreisfreie Stadt Wolfsburg;Kreisfreie Stadt;Wolfsburg;10.78498432;52.41074704;0.289;18.0;100
+191;191;['03158'];Landkreis Wolfenbüttel;Landkreis;Wolfenbüttel;10.58397727;52.12699997;0.287;17.8;100
+192;192;['03451'];Landkreis Ammerland;Landkreis;Ammerland;8.013309583;53.21849299;0.337;22.6;58
+193;193;['05162'];Kreis Rhein-Kreis Neuss;Kreis;Kreis Rhein-Kreis Neuss;6.649303598;51.14356583;0.322;21.1;29
+194;194;['05766'];Kreis Lippe;Kreis;Lippe;8.950849417;51.98141816;0.305;19.5;100
+195;195;['05914'];Kreisfreie Stadt Hagen;Kreisfreie Stadt;Hagen;7.497522225;51.34804473;0.314;20.4;88
+196;196;['07331'];Landkreis Alzey-Worms;Landkreis;Alzey-Worms;8.157198227;49.75943597;0.28;17.2;100
+197;197;['07334'];Landkreis Germersheim;Landkreis;Germersheim;8.246211587;49.11590346;0.268;16.1;100
+198;198;['08225'];Landkreis Neckar-Odenwald-Kreis;Landkreis;Landkreis Neckar-Odenwald-Kreis;9.280065689;49.46654887;0.259;15.4;100
+199;199;['08236'];Landkreis Enzkreis;Landkreis;Landkreis Enzkreis;8.73715852;48.91447763;0.257;15.2;100
+200;200;['09172'];Landkreis Berchtesgadener Land;Landkreis;Berchtesgadener Land;12.90184416;47.6985158;0.176;8.7;100
+201;201;['09464'];Kreisfreie Stadt Hof;Kreisfreie Stadt;Hof;11.89729854;50.31079568;0.238;13.6;100
+202;202;['09477'];Landkreis Kulmbach;Landkreis;Kulmbach;11.48227054;50.10262361;0.24;13.7;100
+203;203;['09764'];Kreisfreie Stadt Memmingen;Kreisfreie Stadt;Memmingen;10.16305874;47.97877167;0.221;12.2;100
+204;204;['09772'];Landkreis Augsburg;Landkreis;Augsburg;10.73206743;48.35428995;0.219;12.1;100
+205;205;['13073'];Landkreis Vorpommern-Rügen;Landkreis;Vorpommern-Rügen;12.99299534;54.28435543;0.293;18.4;96
+206;206;['14524'];Landkreis Zwickau;Landkreis;Zwickau;12.52579452;50.75074265;0.237;13.5;100
+207;207;['14626'];Landkreis Görlitz;Landkreis;Görlitz;14.75080736;51.22562036;0.216;11.8;100
+208;208;['16072'];Landkreis Sonneberg;Landkreis;Sonneberg;11.13628152;50.42132378;0.25;14.6;100
+209;209;['03359'];Landkreis Stade;Landkreis;Stade;9.417736753;53.57931444;0.325;21.4;98
+210;210;['03403'];Kreisfreie Stadt Oldenburg (Oldb);Kreisfreie Stadt;Oldenburg (Oldb);8.224338843;53.14457334;0.333;22.2;73
+211;211;['03453'];Landkreis Cloppenburg;Landkreis;Cloppenburg;7.904702676;52.91100903;0.334;22.2;69
+212;212;['05124'];Kreisfreie Stadt Wuppertal;Kreisfreie Stadt;Wuppertal;7.168916739;51.2506578;0.317;20.6;67
+213;213;['06437'];Landkreis Odenwaldkreis;Landkreis;Landkreis Odenwaldkreis;8.979516888;49.67163292;0.267;16.1;100
+214;214;['08215'];Landkreis Karlsruhe;Landkreis;Karlsruhe;8.562828389;49.08188344;0.263;15.7;100
+215;215;['09261'];Kreisfreie Stadt Landshut;Kreisfreie Stadt;Landshut;12.15936649;48.5446764;0.202;10.7;100
+216;216;['09562'];Kreisfreie Stadt Erlangen;Kreisfreie Stadt;Erlangen;10.97814034;49.58234808;0.237;13.5;100
+217;217;['09674'];Landkreis Haßberge;Landkreis;Haßberge;10.60698183;50.06287932;0.251;14.7;100
+218;218;['09771'];Landkreis Aichach-Friedberg;Landkreis;Aichach-Friedberg;11.05276053;48.42757253;0.216;11.8;100
+219;219;['09773'];Landkreis Dillingen a.d.Donau;Landkreis;Dillingen a.d.Donau;10.52779365;48.59641063;0.226;12.6;100
+220;220;['12066'];Landkreis Oberspreewald-Lausitz;Landkreis;Oberspreewald-Lausitz;13.94357953;51.61628911;0.234;13.2;100
+221;221;['14625'];Landkreis Bautzen;Landkreis;Bautzen;14.23103681;51.26892603;0.224;12.4;100
+222;222;['15001'];Kreisfreie Stadt Dessau-Roßlau;Kreisfreie Stadt;Dessau-Roßlau;12.2310241;51.85373976;0.26;15.5;100
+223;223;['03355'];Landkreis Lüneburg;Landkreis;Lüneburg;10.5733167;53.23253784;0.305;19.5;100
+224;224;['04012'];Kreisfreie Stadt Bremerhaven;Kreisfreie Stadt;Bremerhaven;8.586457362;53.53819062;0.335;22.4;80
+225;225;['07111'];Kreisfreie Stadt Koblenz;Kreisfreie Stadt;Koblenz;7.579524435;50.34852137;0.297;18.8;100
+226;226;['07317'];Kreisfreie Stadt Pirmasens;Kreisfreie Stadt;Pirmasens;7.594510966;49.19718876;0.278;17.1;100
+227;227;['07333'];Landkreis Donnersbergkreis;Landkreis;Landkreis Donnersbergkreis;7.915014843;49.6319706;0.281;17.3;100
+228;228;['08221'];Stadtkreis Heidelberg;Stadtkreis;Heidelberg;8.694208623;49.40552278;0.266;16.0;100
+229;229;['09263'];Kreisfreie Stadt Straubing;Kreisfreie Stadt;Straubing;12.57357121;48.88078937;0.202;10.7;100
+230;230;['09278'];Landkreis Straubing-Bogen;Landkreis;Straubing-Bogen;12.58239483;48.8997216;0.203;10.7;100
+231;231;['09373'];Landkreis Neumarkt i.d.OPf.;Landkreis;Neumarkt i.d.OPf.;11.56655047;49.21595565;0.223;12.3;100
+232;232;['09565'];Kreisfreie Stadt Schwabach;Kreisfreie Stadt;Schwabach;11.02359673;49.33559471;0.232;13.1;100
+233;233;['12051'];Kreisfreie Stadt Brandenburg an der Havel;Kreisfreie Stadt;Brandenburg an der Havel;12.51947455;52.40283229;0.266;16.0;90
+234;234;['13076'];Landkreis Ludwigslust-Parchim;Landkreis;Ludwigslust-Parchim;11.53415613;53.45001047;0.297;18.8;100
+235;235;['16073'];Landkreis Saalfeld-Rudolstadt;Landkreis;Saalfeld-Rudolstadt;11.3124217;50.64082778;0.251;14.7;100
+236;236;['01055'];Kreis Ostholstein;Kreis;Ostholstein;10.81893795;54.18926912;0.318;20.7;100
+237;237;['01058'];Kreis Rendsburg-Eckernförde;Kreis;Rendsburg-Eckernförde;9.781739397;54.2896158;0.332;22.1;95
+238;238;['08136'];Landkreis Ostalbkreis;Landkreis;Landkreis Ostalbkreis;10.0901906;48.87753007;0.238;13.6;100
+239;239;['08316'];Landkreis Emmendingen;Landkreis;Emmendingen;7.897514633;48.14850785;0.257;15.2;100
+240;240;['09162'];Kreisfreie Stadt München;Kreisfreie Stadt;München;11.54726456;48.15320548;0.204;10.8;100
+241;241;['09472'];Landkreis Bayreuth;Landkreis;Bayreuth;11.55513359;49.88376314;0.235;13.3;100
+242;242;['09476'];Landkreis Kronach;Landkreis;Kronach;11.3720286;50.32795599;0.245;14.2;100
+243;243;['09671'];Landkreis Aschaffenburg;Landkreis;Aschaffenburg;9.237996662;50.00809938;0.269;16.2;100
+244;244;['15088'];Landkreis Saalekreis;Landkreis;Landkreis Saalekreis;11.86548116;51.42570989;0.258;15.3;99
+245;245;['05315'];Kreisfreie Stadt Köln;Kreisfreie Stadt;Köln;6.973317065;50.94562325;0.315;20.4;74
+246;246;['05370'];Kreis Heinsberg;Kreis;Heinsberg;6.164120785;51.04938111;0.327;21.6;10
+247;247;['06431'];Landkreis Bergstraße;Landkreis;Bergstraße;8.66022571;49.6176965;0.27;16.4;100
+248;248;['06440'];Landkreis Wetteraukreis;Landkreis;Landkreis Wetteraukreis;8.907731714;50.35474306;0.279;17.2;100
+249;249;['07313'];Kreisfreie Stadt Landau in der Pfalz;Kreisfreie Stadt;Landau in der Pfalz;8.050899943;49.22440279;0.272;16.5;100
+250;250;['08111'];Stadtkreis Stuttgart;Stadtkreis;Stuttgart;9.172008011;48.77457775;0.249;14.5;100
+251;251;['08335'];Landkreis Konstanz;Landkreis;Konstanz;8.910183129;47.79821442;0.236;13.4;100
+252;252;['08437'];Landkreis Sigmaringen;Landkreis;Sigmaringen;9.241018156;48.03909872;0.235;13.4;100
+253;253;['09273'];Landkreis Kelheim;Landkreis;Kelheim;11.8575839;48.82493971;0.212;11.4;100
+254;254;['09662'];Kreisfreie Stadt Schweinfurt;Kreisfreie Stadt;Schweinfurt;10.22086145;50.04710265;0.256;15.1;100
+255;255;['09775'];Landkreis Neu-Ulm;Landkreis;Neu-Ulm;10.14116385;48.29821074;0.227;12.7;100
+256;256;['12065'];Landkreis Oberhavel;Landkreis;Oberhavel;13.20528086;52.90681557;0.267;16.0;69
+257;257;['12071'];Landkreis Spree-Neiße;Landkreis;Spree-Neiße;14.43312584;51.75861574;0.23;12.9;100
+258;258;['16070'];Landkreis Ilm-Kreis;Landkreis;Landkreis Ilm-Kreis;10.97483366;50.7425438;0.258;15.3;100
+259;259;['16076'];Landkreis Greiz;Landkreis;Greiz;12.07408659;50.74844125;0.243;14.0;100
+260;260;['05512'];Kreisfreie Stadt Bottrop;Kreisfreie Stadt;Bottrop;6.92010672;51.57170428;0.325;21.4;24
+261;261;['07318'];Kreisfreie Stadt Speyer;Kreisfreie Stadt;Speyer;8.43494162;49.32973437;0.269;16.2;100
+262;262;['08222'];Stadtkreis Mannheim;Stadtkreis;Mannheim;8.500410699;49.49952546;0.271;16.4;100
+263;263;['08327'];Landkreis Tuttlingen;Landkreis;Tuttlingen;8.794140343;48.01116365;0.241;13.9;100
+264;264;['08417'];Landkreis Zollernalbkreis;Landkreis;Landkreis Zollernalbkreis;8.937457247;48.26726136;0.244;14.1;100
+265;265;['09176'];Landkreis Eichstätt;Landkreis;Eichstätt;11.37042706;48.89807743;0.22;12.1;100
+266;266;['09272'];Landkreis Freyung-Grafenau;Landkreis;Freyung-Grafenau;13.51329631;48.82688556;0.188;9.6;100
+267;267;['09677'];Landkreis Main-Spessart;Landkreis;Main-Spessart;9.662685176;49.99358298;0.263;15.7;100
+268;268;['12054'];Kreisfreie Stadt Potsdam;Kreisfreie Stadt;Potsdam;13.02870149;52.42617193;0.26;15.5;99
+269;269;['14730'];Landkreis Nordsachsen;Landkreis;Nordsachsen;12.77939592;51.47285531;0.246;14.3;100
+270;270;['03352'];Landkreis Cuxhaven;Landkreis;Cuxhaven;8.812451787;53.61660926;0.334;22.2;83
+271;271;['04011'];Kreisfreie Stadt Bremen;Kreisfreie Stadt;Bremen;8.780785009;53.11911174;0.326;21.5;85
+272;272;['06433'];Landkreis Groß-Gerau;Landkreis;Groß-Gerau;8.470243122;49.9044261;0.278;17.0;100
+273;273;['06533'];Landkreis Limburg-Weilburg;Landkreis;Limburg-Weilburg;8.199380715;50.42743061;0.29;18.1;100
+274;274;['06635'];Landkreis Waldeck-Frankenberg;Landkreis;Waldeck-Frankenberg;8.888866507;51.19066936;0.293;18.4;100
+275;275;['07235'];Landkreis Trier-Saarburg;Landkreis;Trier-Saarburg;6.695214165;49.69658767;0.299;18.9;93
+276;276;['08415'];Landkreis Reutlingen;Landkreis;Reutlingen;9.36568486;48.40645845;0.24;13.7;100
+277;277;['13004'];Kreisfreie Stadt Schwerin;Kreisfreie Stadt;Schwerin;11.41668174;53.62147613;0.301;19.2;100
+278;278;['02000'];Kreisfreie Stadt Hamburg;Kreisfreie Stadt;Hamburg;10.01586423;53.54741653;0.317;20.7;99
+279;279;['03101'];Kreisfreie Stadt Braunschweig;Kreisfreie Stadt;Braunschweig;10.52419605;52.27530334;0.29;18.1;100
+280;280;['03457'];Landkreis Leer;Landkreis;Leer;7.475468764;53.24220026;0.344;23.3;16
+281;281;['05112'];Kreisfreie Stadt Duisburg;Kreisfreie Stadt;Duisburg;6.734670026;51.43963666;0.326;21.5;15
+282;282;['05970'];Kreis Siegen-Wittgenstein;Kreis;Siegen-Wittgenstein;8.19510982;50.93772082;0.298;18.9;100
+283;283;['08326'];Landkreis Schwarzwald-Baar-Kreis;Landkreis;Landkreis Schwarzwald-Baar-Kreis;8.410953096;48.01914859;0.247;14.4;100
+284;284;['09361'];Kreisfreie Stadt Amberg;Kreisfreie Stadt;Amberg;11.84535236;49.45091945;0.223;12.4;100
+285;285;['09462'];Kreisfreie Stadt Bayreuth;Kreisfreie Stadt;Bayreuth;11.58467183;49.93774875;0.235;13.4;100
+286;286;['09574'];Landkreis Nürnberger Land;Landkreis;Nürnberger Land;11.369437;49.49192541;0.23;13.0;100
+287;287;['09576'];Landkreis Roth;Landkreis;Roth;11.12357899;49.20292473;0.229;12.8;100
+288;288;['09661'];Kreisfreie Stadt Aschaffenburg;Kreisfreie Stadt;Aschaffenburg;9.1457949;49.96388201;0.269;16.3;100
+289;289;['10042'];Landkreis Merzig-Wadern;Landkreis;Merzig-Wadern;6.680494457;49.4957511;0.296;18.7;98
+290;290;['14523'];Landkreis Vogtlandkreis;Landkreis;Landkreis Vogtlandkreis;12.23498589;50.45679691;0.236;13.4;100
+291;291;['15081'];Landkreis Altmarkkreis Salzwedel;Landkreis;Landkreis Altmarkkreis Salzwedel;11.22703337;52.68002497;0.288;17.9;100
+292;292;['01060'];Kreis Segeberg;Kreis;Segeberg;10.14090315;53.9199723;0.322;21.1;99
+293;293;['03459'];Landkreis Osnabrück;Landkreis;Osnabrück;8.045117856;52.3816028;0.324;21.3;77
+294;294;['05119'];Kreisfreie Stadt Oberhausen;Kreisfreie Stadt;Oberhausen;6.847065462;51.51316006;0.325;21.4;18
+295;295;['05120'];Kreisfreie Stadt Remscheid;Kreisfreie Stadt;Remscheid;7.224034603;51.18269972;0.315;20.5;81
+296;296;['05158'];Kreis Mettmann;Kreis;Mettmann;6.969024949;51.25709254;0.32;20.9;48
+297;297;['05382'];Kreis Rhein-Sieg-Kreis;Kreis;Kreis Rhein-Sieg-Kreis;7.234538985;50.76063574;0.308;19.8;100
+298;298;['05554'];Kreis Borken;Kreis;Borken;6.899636399;51.96133044;0.332;22.0;14
+299;299;['07233'];Landkreis Vulkaneifel;Landkreis;Vulkaneifel;6.748674948;50.2383501;0.307;19.7;98
+300;300;['07335'];Landkreis Kaiserslautern;Landkreis;Kaiserslautern;7.684950995;49.44619873;0.281;17.3;100
+301;301;['08235'];Landkreis Calw;Landkreis;Calw;8.635771067;48.67899702;0.255;15.0;100
+302;302;['11000'];Kreisfreie Stadt Berlin;Kreisfreie Stadt;Berlin;13.40184985;52.50153359;0.257;15.2;95
+303;303;['01062'];Kreis Stormarn;Kreis;Stormarn;10.33165399;53.72082064;0.316;20.6;100
+304;304;['03254'];Landkreis Hildesheim;Landkreis;Hildesheim;9.943432196;52.09028932;0.294;18.5;100
+305;305;['05166'];Kreis Viersen;Kreis;Viersen;6.326159537;51.28281869;0.329;21.8;9
+306;306;['05378'];Kreis Rheinisch-Bergischer Kreis;Kreis;Kreis Rheinisch-Bergischer Kreis;7.194846227;51.02304533;0.313;20.3;88
+307;307;['07320'];Kreisfreie Stadt Zweibrücken;Kreisfreie Stadt;Zweibrücken;7.365382782;49.24818366;0.282;17.4;100
+308;308;['07338'];Landkreis Rhein-Pfalz-Kreis;Landkreis;Landkreis Rhein-Pfalz-Kreis;8.360669199;49.41657688;0.271;16.4;100
+309;309;['09171'];Landkreis Altötting;Landkreis;Altötting;12.70528636;48.20980652;0.188;9.6;100
+310;310;['09186'];Landkreis Pfaffenhofen a.d.Ilm;Landkreis;Pfaffenhofen a.d.Ilm;11.52423722;48.59626534;0.212;11.5;100
+311;311;['09461'];Kreisfreie Stadt Bamberg;Kreisfreie Stadt;Bamberg;10.89890826;49.88723976;0.244;14.1;100
+312;312;['09475'];Landkreis Hof;Landkreis;Hof;11.81916078;50.27321132;0.238;13.6;100
+313;313;['09676'];Landkreis Miltenberg;Landkreis;Miltenberg;9.234769966;49.75731543;0.265;15.9;100
+314;314;['09761'];Kreisfreie Stadt Augsburg;Kreisfreie Stadt;Augsburg;10.88550475;48.34559435;0.217;11.9;100
+315;315;['12060'];Landkreis Barnim;Landkreis;Barnim;13.70374848;52.8232284;0.259;15.4;94
+316;316;['14627'];Landkreis Meißen;Landkreis;Meißen;13.48297698;51.23942815;0.233;13.2;100
+317;317;['16054'];Kreisfreie Stadt Suhl;Kreisfreie Stadt;Suhl;10.71792161;50.62114456;0.259;15.4;100
+318;318;['16061'];Landkreis Eichsfeld;Landkreis;Eichsfeld;10.25980974;51.37943634;0.278;17.1;100
+319;319;['03159'];Landkreis Göttingen;Landkreis;Göttingen;10.08792867;51.56400629;0.284;17.5;100
+320;320;['03257'];Landkreis Schaumburg;Landkreis;Schaumburg;9.206552761;52.29276275;0.307;19.7;100
+321;321;['03452'];Landkreis Aurich;Landkreis;Aurich;7.368115614;53.49760506;0.35;23.8;32
+322;322;['03455'];Landkreis Friesland;Landkreis;Friesland;7.982715336;53.50929439;0.342;23.0;27
+323;323;['03461'];Landkreis Wesermarsch;Landkreis;Wesermarsch;8.390144233;53.35574951;0.335;22.3;82
+324;324;['06435'];Landkreis Main-Kinzig-Kreis;Landkreis;Landkreis Main-Kinzig-Kreis;9.286257907;50.24384951;0.272;16.5;100
+325;325;['06535'];Landkreis Vogelsbergkreis;Landkreis;Landkreis Vogelsbergkreis;9.271373083;50.6381206;0.279;17.1;100
+326;326;['07138'];Landkreis Neuwied;Landkreis;Neuwied;7.469010356;50.55771203;0.302;19.2;100
+327;327;['07315'];Kreisfreie Stadt Mainz;Kreisfreie Stadt;Mainz;8.241504577;49.97422764;0.282;17.4;100
+328;328;['08126'];Landkreis Hohenlohekreis;Landkreis;Landkreis Hohenlohekreis;9.614163574;49.27156134;0.251;14.7;100
+329;329;['08317'];Landkreis Ortenaukreis;Landkreis;Landkreis Ortenaukreis;8.016273854;48.42095047;0.259;15.4;100
+330;330;['09575'];Landkreis Neustadt a.d.Aisch-Bad Windsheim;Landkreis;Neustadt a.d.Aisch-Bad Windsheim;10.46526866;49.56946634;0.244;14.1;100
+331;331;['01053'];Kreis Herzogtum Lauenburg;Kreis;Herzogtum Lauenburg;10.60189557;53.58901233;0.311;20.1;100
+332;332;['03458'];Landkreis Oldenburg;Landkreis;Oldenburg;8.389388142;52.98806723;0.329;21.8;78
+333;333;['05114'];Kreisfreie Stadt Krefeld;Kreisfreie Stadt;Krefeld;6.579674192;51.34523036;0.326;21.5;12
+334;334;['05374'];Kreis Oberbergischer Kreis;Kreis;Kreis Oberbergischer Kreis;7.51662766;51.01271237;0.309;19.9;100
+335;335;['07336'];Landkreis Kusel;Landkreis;Kusel;7.471288975;49.54989983;0.286;17.7;100
+336;336;['09179'];Landkreis Fürstenfeldbruck;Landkreis;Fürstenfeldbruck;11.20107651;48.18779234;0.21;11.3;100
+337;337;['09190'];Landkreis Weilheim-Schongau;Landkreis;Weilheim-Schongau;11.04833083;47.7875391;0.205;10.9;100
+338;338;['09374'];Landkreis Neustadt a.d.Waldnaab;Landkreis;Neustadt a.d.Waldnaab;12.09824244;49.68659253;0.224;12.4;100
+339;339;['09679'];Landkreis Würzburg;Landkreis;Würzburg;9.927363193;49.73761985;0.255;15.0;100
+340;340;['12062'];Landkreis Elbe-Elster;Landkreis;Elbe-Elster;13.45956473;51.6122774;0.24;13.8;100
+341;341;['03356'];Landkreis Osterholz;Landkreis;Osterholz;8.808070121;53.2510148;0.328;21.7;85
+342;342;['03358'];Landkreis Heidekreis;Landkreis;Landkreis Heidekreis;9.769365412;52.92832443;0.31;20.0;100
+343;343;['05122'];Kreisfreie Stadt Solingen;Kreisfreie Stadt;Solingen;7.066094382;51.16245839;0.317;20.6;67
+344;344;['07133'];Landkreis Bad Kreuznach;Landkreis;Bad Kreuznach;7.686663268;49.82482856;0.287;17.9;100
+345;345;['07340'];Landkreis Südwestpfalz;Landkreis;Südwestpfalz;7.658842721;49.20825522;0.277;17.0;100
+346;346;['08118'];Landkreis Ludwigsburg;Landkreis;Ludwigsburg;9.124385065;48.94061793;0.252;14.8;100
+347;347;['08336'];Landkreis Lörrach;Landkreis;Lörrach;7.774037673;47.70349095;0.251;14.7;100
+348;348;['08425'];Landkreis Alb-Donau-Kreis;Landkreis;Landkreis Alb-Donau-Kreis;9.827425907;48.40170453;0.233;13.2;100
+349;349;['08426'];Landkreis Biberach;Landkreis;Biberach;9.774293955;48.1075758;0.229;12.8;100
+350;350;['09563'];Kreisfreie Stadt Fürth;Kreisfreie Stadt;Fürth;10.96542946;49.491402;0.236;13.4;100
+351;351;['15002'];Kreisfreie Stadt Halle (Saale);Kreisfreie Stadt;Halle (Saale);11.96849612;51.47981521;0.257;15.2;98
+352;352;['15091'];Landkreis Wittenberg;Landkreis;Wittenberg;12.70160489;51.82015202;0.254;14.9;99
+353;353;['16074'];Landkreis Saale-Holzland-Kreis;Landkreis;Landkreis Saale-Holzland-Kreis;11.73156859;50.90418038;0.25;14.6;99
+354;354;['03153'];Landkreis Goslar;Landkreis;Goslar;10.40047956;51.87461333;0.285;17.6;100
+355;355;['03241'];Landkreis Region Hannover;Landkreis;Landkreis Region Hannover;9.719758125;52.42190928;0.303;19.3;100
+356;356;['03460'];Landkreis Vechta;Landkreis;Vechta;8.223051335;52.66020914;0.326;21.5;78
+357;357;['05334'];Kreis Städteregion Aachen;Kreis;Kreis Städteregion Aachen;6.216778119;50.72825736;0.322;21.1;29
+358;358;['05566'];Kreis Steinfurt;Kreis;Steinfurt;7.579479898;52.21155062;0.327;21.6;68
+359;359;['05754'];Kreis Gütersloh;Kreis;Gütersloh;8.351397409;51.93170186;0.312;20.2;100
+360;360;['05978'];Kreis Unna;Kreis;Unna;7.636430967;51.57855735;0.316;20.5;82
+361;361;['06432'];Landkreis Darmstadt-Dieburg;Landkreis;Darmstadt-Dieburg;8.795383462;49.85548093;0.272;16.5;100
+362;362;['06531'];Landkreis Gießen;Landkreis;Gießen;8.807549858;50.57023991;0.284;17.6;100
+363;363;['07316'];Kreisfreie Stadt Neustadt an der Weinstraße;Kreisfreie Stadt;Neustadt an der Weinstraße;8.152243286;49.34191795;0.273;16.6;100
+364;364;['08128'];Landkreis Main-Tauber-Kreis;Landkreis;Landkreis Main-Tauber-Kreis;9.725076919;49.56068623;0.254;15.0;100
+365;365;['08237'];Landkreis Freudenstadt;Landkreis;Freudenstadt;8.465307406;48.47437231;0.254;14.9;100
+366;366;['09187'];Landkreis Rosenheim;Landkreis;Rosenheim;12.16276462;47.87842042;0.19;9.8;100
+367;367;['09262'];Kreisfreie Stadt Passau;Kreisfreie Stadt;Passau;13.41516987;48.58208488;0.185;9.4;100
+368;368;['09473'];Landkreis Coburg;Landkreis;Coburg;10.94232066;50.26790148;0.25;14.6;100
+369;369;['09777'];Landkreis Ostallgäu;Landkreis;Ostallgäu;10.63967375;47.76998499;0.21;11.3;100
+370;370;['10045'];Landkreis Saarpfalz-Kreis;Landkreis;Landkreis Saarpfalz-Kreis;7.242205609;49.24870016;0.284;17.6;100
+371;371;['16062'];Landkreis Nordhausen;Landkreis;Nordhausen;10.73087582;51.50226413;0.274;16.7;100
+372;372;['03102'];Kreisfreie Stadt Salzgitter;Kreisfreie Stadt;Salzgitter;10.37076777;52.12443881;0.289;18.1;100
+373;373;['05170'];Kreis Wesel;Kreis;Wesel;6.618365017;51.62704233;0.33;21.9;10
+374;374;['05362'];Kreis Rhein-Erft-Kreis;Kreis;Kreis Rhein-Erft-Kreis;6.716399936;50.9050536;0.318;20.7;70
+375;375;['06412'];Kreisfreie Stadt Frankfurt am Main;Kreisfreie Stadt;Frankfurt am Main;8.64416414;50.11796343;0.279;17.1;100
+376;376;['07337'];Landkreis Südliche Weinstraße;Landkreis;Südliche Weinstraße;8.048052314;49.1904069;0.272;16.5;100
+377;377;['08212'];Stadtkreis Karlsruhe;Stadtkreis;Karlsruhe;8.41267541;49.0113237;0.264;15.8;100
+378;378;['08226'];Landkreis Rhein-Neckar-Kreis;Landkreis;Landkreis Rhein-Neckar-Kreis;8.767095561;49.36848885;0.265;15.9;100
+379;379;['09184'];Landkreis München;Landkreis;München;11.63136431;48.07445098;0.201;10.6;100
+380;380;['09279'];Landkreis Dingolfing-Landau;Landkreis;Dingolfing-Landau;12.61049866;48.6411631;0.198;10.3;100
+381;381;['09564'];Kreisfreie Stadt Nürnberg;Kreisfreie Stadt;Nürnberg;11.08271946;49.43621312;0.233;13.2;100
+382;382;['12052'];Kreisfreie Stadt Cottbus;Kreisfreie Stadt;Cottbus;14.36628305;51.77257638;0.231;13.0;100
+383;383;['15089'];Landkreis Salzlandkreis;Landkreis;Landkreis Salzlandkreis;11.64270231;51.85187075;0.268;16.2;100
+384;384;['16068'];Landkreis Sömmerda;Landkreis;Sömmerda;11.15475154;51.15782462;0.262;15.7;100
+385;385;['16075'];Landkreis Saale-Orla-Kreis;Landkreis;Landkreis Saale-Orla-Kreis;11.71057116;50.58086988;0.245;14.2;100
+386;386;['03360'];Landkreis Uelzen;Landkreis;Uelzen;10.54759038;52.98362366;0.301;19.2;100
+387;387;['05117'];Kreisfreie Stadt Mülheim an der Ruhr;Kreisfreie Stadt;Mülheim an der Ruhr;6.87846823;51.41376638;0.323;21.3;26
+388;388;['05314'];Kreisfreie Stadt Bonn;Kreisfreie Stadt;Bonn;7.109845048;50.70580009;0.309;19.9;99
+389;389;['07134'];Landkreis Birkenfeld;Landkreis;Birkenfeld;7.277521676;49.71261039;0.291;18.2;100
+390;390;['08119'];Landkreis Rems-Murr-Kreis;Landkreis;Landkreis Rems-Murr-Kreis;9.501290541;48.89898444;0.246;14.3;100
+391;391;['08127'];Landkreis Schwäbisch Hall;Landkreis;Schwäbisch Hall;9.908930712;49.14447574;0.245;14.2;100
+392;392;['08325'];Landkreis Rottweil;Landkreis;Rottweil;8.532446538;48.25420795;0.249;14.5;100
+393;393;['09371'];Landkreis Amberg-Sulzbach;Landkreis;Amberg-Sulzbach;11.80094228;49.48674986;0.224;12.5;100
+394;394;['09763'];Kreisfreie Stadt Kempten (Allgäu);Kreisfreie Stadt;Kempten (Allgäu);10.3081117;47.73820922;0.215;11.7;100
+395;395;['13071'];Landkreis Mecklenburgische Seenplatte;Landkreis;Mecklenburgische Seenplatte;13.0025115;53.54367661;0.28;17.3;67
+396;396;['14511'];Kreisfreie Stadt Chemnitz;Kreisfreie Stadt;Chemnitz;12.91181979;50.82632703;0.233;13.2;100
+397;397;['14521'];Landkreis Erzgebirgskreis;Landkreis;Landkreis Erzgebirgskreis;12.94504352;50.60889861;0.229;12.8;100
+398;398;['14612'];Kreisfreie Stadt Dresden;Kreisfreie Stadt;Dresden;13.78348296;51.06644835;0.226;12.6;100
+399;399;['16069'];Landkreis Hildburghausen;Landkreis;Hildburghausen;10.7341121;50.43400761;0.256;15.1;100
