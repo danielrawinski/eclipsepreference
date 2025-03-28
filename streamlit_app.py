@@ -145,11 +145,8 @@ if countryselector == 'Poland':
             
             st.write('The best conditions according to your preferences are in:')
             st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
-
-            url = 'https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l.shp/view?usp=drive_link'
-            url = 'https://drive.google.com/uc?id=' + url.split('/')[-2]
             
-            polen = gpd.read_file(url)
+            polen = gpd.read_file('A02_Granice_powiatow.shp')
 
             map_sp_df = pd.concat([polen, conditions_for_choice], axis=1)
 
