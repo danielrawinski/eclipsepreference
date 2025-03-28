@@ -2,3 +2,4 @@ pandas
 geopandas
 altair
 plotnine
+tabulate
