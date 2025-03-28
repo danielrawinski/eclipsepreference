@@ -146,7 +146,7 @@ if countryselector == 'Poland':
             st.write('The best conditions according to your preferences are in:')
             st.markdown(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
             
-            polen = gpd.read_file('https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l/view?usp=sharing')
+            polen = gpd.read_file('https://drive.google.com/file/d/1_-V5wS8NdMFYL66E3vY8ihaUXyMgVZ7l/.shp')
 
             map_sp_df = pd.concat([polen, conditions_for_choice], axis=1)
 
