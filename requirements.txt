@@ -1,4 +1,4 @@
 pandas
-pygeos
 geopandas
 altair
+plotnine
