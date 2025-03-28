@@ -63,7 +63,7 @@ if countryselector == 'Germany':
             print(display_df.sort_values(by=['Preference index'], axis=0, ascending=False).head().to_markdown(index=False))
             
             
-            deutschland = gpd.read_file('georef-germany-kreis@public\georef-germany-kreis-millesime.shp')
+            deutschland = gpd.read_file('georef-germany-kreis-millesime.shp')
 
             map_sp_df = deutschland.merge(conditions_for_choice, left_on='krs_code', right_on='krs_code')
 
