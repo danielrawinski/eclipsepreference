@@ -117,6 +117,9 @@ if countryselector == 'Poland':
 
         if obs_pref + clouds_pref + dist_pref == 1:
             id_chosen = conditions_pl.loc[conditions_pl['JPT_NAZWA_'] == regionselector, 'JPT_KOD_JE'].iloc[0]
+            if len(id_chosen) = 3:
+                id_chosen = str(0)+str(id_chosen)
+                
             distlist = distancematrix_pl[str(id_chosen)].tolist()
             distlistnorm = []
             
