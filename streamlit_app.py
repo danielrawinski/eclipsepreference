@@ -28,7 +28,7 @@ if countryselector == 'Germany':
 if countryselector == 'Poland':
     regionselector = st.selectbox('Now, choose a powiat:', regions_pl)
     
-if countryselector:
+if regionselector:
 
     st.write('Now, I will ask you to choose how much do you value the following when planning where to view solar eclipse.')
     st.write('There are three criteria. Set a value for each of them for 0 to 1.')
