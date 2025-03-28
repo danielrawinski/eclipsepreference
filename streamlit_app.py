@@ -1,27 +1,7 @@
 import streamlit as st
 import pandas as pd
 # import geopandas as gpd
-from plotnine import (
-    ggplot,
-    aes,
-    coord_fixed,
-    facet_wrap,
-    geom_map,
-    geom_text,
-    labs,
-    scale_fill_brewer,
-    scale_fill_continuous,
-    scale_x_continuous,
-    scale_y_continuous,
-    scale_size_continuous,
-    stage,
-    coord_cartesian,
-    element_line,
-    element_rect,
-    element_text,
-    theme_void,
-    theme,
-)
+from plotnine import *
 
 # =============================================================================
 # Importing files and defining variables
